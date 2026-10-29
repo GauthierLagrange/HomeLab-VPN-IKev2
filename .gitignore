@@ -1,0 +1,20 @@
+# Clés privées et certificats
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Dossiers contenant la PKI ou des secrets générés localement
+pki/
+secrets/
+
+# Fichier contenant les mots de passe du VPN
+ipsec.secrets
+*.secrets
+
+# Variables d'environnement
+.env
+
+# Fichiers systèmes inutiles
+.DS_Store
+Thumbs.db
