@@ -12,9 +12,14 @@ secrets/
 ipsec.secrets
 *.secrets
 
-# Variables d'environnement
+# Fichiers de variables d'environnement
 .env
+*.env
+
+# Configurations spécifiques à l'hôte 
+configs/strongswan/ipsec.conf.local
 
 # Fichiers systèmes inutiles
 .DS_Store
 Thumbs.db
+
