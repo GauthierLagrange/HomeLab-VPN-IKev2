@@ -65,3 +65,5 @@ La connexion s'effectue directement depuis les paramètres VPN de votre appareil
 - **Ajouter ou modifier un mot de passe :** Éditez `/etc/ipsec.secrets`, puis rechargez les accès sans couper les connexions actives avec : `sudo ipsec rereadsecrets`
 - **Voir les connexions et clients connectés :** `sudo swanctl --list-sas` (Affiche les tunnels actifs, les IP virtuelles attribuées et le trafic en temps réel).
 - **Diagnostiquer une erreur :** `sudo journalctl -t charon -f` (Affiche les logs de connexion en temps réel).
+- **Constater l'utilisation de la RAM et des conteneurs :** `free -h` (Affiche l'espace mémoire utilisé et disponible) et `docker stat` (Affiche la consommation des différents conteneurs)
+
